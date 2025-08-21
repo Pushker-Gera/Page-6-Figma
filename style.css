@@ -38,9 +38,10 @@ section {
     color: #1E0E62;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 42px;
     line-height: 52px;
     letter-spacing: -0.4px;
+    padding: 12px;
 }
 
 pre {
@@ -72,8 +73,13 @@ button {
     height: 40px;
     border-color: #EBEAED;
     background-color: white;
+    border: 2px solid rgba(235, 234, 237, 1)
 }
-
+.gap-20{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .card-2 {
     display: flex;
     align-items: right;
