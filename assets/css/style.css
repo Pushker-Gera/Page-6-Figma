@@ -18,18 +18,17 @@ section {
 
 .container {
     max-width: 1045px;
-    max-height: 688px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 12px;
     padding-bottom: 12px;
+    overflow: hidden;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     padding-left: -12px;
     padding-right: -12px;
 }
@@ -73,7 +72,11 @@ button {
     height: 40px;
     border-color: #EBEAED;
     background-color: white;
-    border: 2px solid rgba(235, 234, 237, 1)
+    border: 2px solid rgba(235, 234, 237, 1);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(235, 234, 237, 1);
 }
 .gap-20{
     display: flex;
